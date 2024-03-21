@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 
-df= pd.read_csv("cars24-car-price.csv")
+df= pd.read_csv("https://github.com/partha2022/DSML_SEP22_PREDICTIONS/blob/master/parthaenv/cars24-car-price.csv")
 
 st.header("Car Price Prediction Application")
 
